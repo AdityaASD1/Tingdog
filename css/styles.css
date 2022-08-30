@@ -1,0 +1,185 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* HEADINGS */
+
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight:bold;
+  margin-bottom: 70px;
+}
+
+
+
+
+#title{
+  padding-bottom: 70px;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15% 7% 15%;
+
+}
+.btn{
+
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.download-button1:hover{
+  background-color: white;
+  color: black;
+}
+.download-button{
+  margin-top:0;
+  margin-bottom: 0;
+}
+nav{
+  font-size:15px;
+
+}
+.navbar{
+  padding-bottom: 30px;
+  margin-bottom:50px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 40px;
+  font-weight:lighter;
+
+}
+.nav-item{
+  padding-left: 40px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat-Light"
+}
+
+
+
+
+.title-image{
+
+  width:25%;
+  transform: rotate(25deg);
+  position:absolute;
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+.features-heading{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.features-icon{
+  color: #ef8172;
+  margin-bottom: 30px;
+  width:80%;
+}
+.features-icon:hover{
+  color:#ff4c68;
+}
+.features-para{
+  color: #8f8f8f;
+}
+.features-box{
+  padding: 5%;
+}
+/* Testimonials section */
+
+ #testimonials{
+   font-family: 'Montserrat', sans-serif;
+
+   background-color: #ef8172;
+   color: #fff;
+   font-weight:bold;
+ }
+ .testimonial-image{
+   width: 10%;
+   border-radius: 100%;
+ }
+ .carousel-item{
+   padding: 7% 15%;
+ }
+
+
+
+ #press{
+   background-color: #ef8172;
+   padding-bottom: 3%;
+ }
+ .press-logo{
+   width: 15%;
+   margin: 20px 20px 50px;
+ }
+#cards
+.card-header-width{
+  width:20%;
+}
+#pricing{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px ) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    width: 70%;
+    padding-top: 50px;
+    position: static;
+    transform: rotate(0);
+  }
+  .extra{
+    margin-bottom: 30px;
+  }
+}
+
+/* Call to Action */
+#cta{
+  font-size: 3.5rem;
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10%;
+  color: #fff;
+}
+
+
+.div-cta{
+  padding-top:50px;
+}
+/* Footer */
+#footer{
+  margin: 7% auto 12% auto;
+}
+.footer-logos{
+  padding-top: 5%;
+  padding-bottom:2%;
+}
+.logos{
+  padding-left: 25px;
+}
